@@ -13,12 +13,20 @@
 		0C4667801D91798D00F4D464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C46677F1D91798D00F4D464 /* Assets.xcassets */; };
 		0C4667831D91798D00F4D464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4667811D91798D00F4D464 /* LaunchScreen.storyboard */; };
 		0C46678E1D91798D00F4D464 /* BDDDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46678D1D91798D00F4D464 /* BDDDemoTests.swift */; };
+		0C46679F1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46679E1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift */; };
 		9832F2AE69D0D1CCE07AF0A0 /* Pods_BDDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9671F2439A3F4018DF39EA6 /* Pods_BDDDemo.framework */; };
 		B241DBDBEB701EBFE8F36FD2 /* Pods_BDDDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0C46678A1D91798D00F4D464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C46676D1D91798D00F4D464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C4667741D91798D00F4D464;
+			remoteInfo = BDDDemo;
+		};
+		0C4667A11D917D4A00F4D464 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0C46676D1D91798D00F4D464 /* Project object */;
 			proxyType = 1;
@@ -38,6 +46,9 @@
 		0C4667891D91798D00F4D464 /* BDDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C46678D1D91798D00F4D464 /* BDDDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDDemoTests.swift; sourceTree = "<group>"; };
 		0C46678F1D91798D00F4D464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C46679C1D917D4A00F4D464 /* BDDDemoIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDDDemoIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C46679E1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDDemoIntegrationTests.swift; sourceTree = "<group>"; };
+		0C4667A01D917D4A00F4D464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC8483C1CC26A9D2E4141B6 /* Pods-BDDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemoTests/Pods-BDDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDDDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E66ADAB56CC1172B593F356 /* Pods-BDDDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemoTests/Pods-BDDDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +74,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C4667991D917D4A00F4D464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,6 +89,7 @@
 			children = (
 				0C4667771D91798D00F4D464 /* BDDDemo */,
 				0C46678C1D91798D00F4D464 /* BDDDemoTests */,
+				0C46679D1D917D4A00F4D464 /* BDDDemoIntegrationTests */,
 				0C4667761D91798D00F4D464 /* Products */,
 				43ADA90067BAC491A1EE19E1 /* Pods */,
 				25BCCE3672A69E4BC71723A8 /* Frameworks */,
@@ -82,6 +101,7 @@
 			children = (
 				0C4667751D91798D00F4D464 /* BDDDemo.app */,
 				0C4667891D91798D00F4D464 /* BDDDemoTests.xctest */,
+				0C46679C1D917D4A00F4D464 /* BDDDemoIntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +126,15 @@
 				0C46678F1D91798D00F4D464 /* Info.plist */,
 			);
 			path = BDDDemoTests;
+			sourceTree = "<group>";
+		};
+		0C46679D1D917D4A00F4D464 /* BDDDemoIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C46679E1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift */,
+				0C4667A01D917D4A00F4D464 /* Info.plist */,
+			);
+			path = BDDDemoIntegrationTests;
 			sourceTree = "<group>";
 		};
 		25BCCE3672A69E4BC71723A8 /* Frameworks */ = {
@@ -172,6 +201,24 @@
 			productReference = 0C4667891D91798D00F4D464 /* BDDDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0C46679B1D917D4A00F4D464 /* BDDDemoIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4667A51D917D4A00F4D464 /* Build configuration list for PBXNativeTarget "BDDDemoIntegrationTests" */;
+			buildPhases = (
+				0C4667981D917D4A00F4D464 /* Sources */,
+				0C4667991D917D4A00F4D464 /* Frameworks */,
+				0C46679A1D917D4A00F4D464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C4667A21D917D4A00F4D464 /* PBXTargetDependency */,
+			);
+			name = BDDDemoIntegrationTests;
+			productName = BDDDemoIntegrationTests;
+			productReference = 0C46679C1D917D4A00F4D464 /* BDDDemoIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,6 +235,12 @@
 						ProvisioningStyle = Automatic;
 					};
 					0C4667881D91798D00F4D464 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CS7SZ6KGXK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C4667741D91798D00F4D464;
+					};
+					0C46679B1D917D4A00F4D464 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = CS7SZ6KGXK;
 						ProvisioningStyle = Automatic;
@@ -210,6 +263,7 @@
 			targets = (
 				0C4667741D91798D00F4D464 /* BDDDemo */,
 				0C4667881D91798D00F4D464 /* BDDDemoTests */,
+				0C46679B1D917D4A00F4D464 /* BDDDemoIntegrationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,6 +280,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C4667871D91798D00F4D464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C46679A1D917D4A00F4D464 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,6 +406,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C4667981D917D4A00F4D464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C46679F1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -352,6 +421,11 @@
 			isa = PBXTargetDependency;
 			target = 0C4667741D91798D00F4D464 /* BDDDemo */;
 			targetProxy = 0C46678A1D91798D00F4D464 /* PBXContainerItemProxy */;
+		};
+		0C4667A21D917D4A00F4D464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C4667741D91798D00F4D464 /* BDDDemo */;
+			targetProxy = 0C4667A11D917D4A00F4D464 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -528,6 +602,34 @@
 			};
 			name = Release;
 		};
+		0C4667A31D917D4A00F4D464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CS7SZ6KGXK;
+				INFOPLIST_FILE = BDDDemoIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.platform.develop.BDDDemoIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDDDemo.app/BDDDemo";
+			};
+			name = Debug;
+		};
+		0C4667A41D917D4A00F4D464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CS7SZ6KGXK;
+				INFOPLIST_FILE = BDDDemoIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philips.platform.develop.BDDDemoIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDDDemo.app/BDDDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -557,6 +659,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0C4667A51D917D4A00F4D464 /* Build configuration list for PBXNativeTarget "BDDDemoIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4667A31D917D4A00F4D464 /* Debug */,
+				0C4667A41D917D4A00F4D464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
