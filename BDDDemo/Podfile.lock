@@ -1,25 +1,39 @@
 PODS:
+  - Cucumberish (0.9.1)
+  - KIF (3.5.1):
+    - KIF/Core (= 3.5.1)
+  - KIF/Core (3.5.1)
   - Nimble (5.0.0)
   - Quick (0.9.3)
 
 DEPENDENCIES:
+  - Cucumberish (from `https://github.com/Ahmed-Ali/Cucumberish.git`, branch `develop`)
+  - KIF (~> 3.5)
   - Nimble (~> 5.0)
   - Quick (from `https://github.com/Quick/Quick.git`, branch `swift-3.0`)
 
 EXTERNAL SOURCES:
+  Cucumberish:
+    :branch: develop
+    :git: https://github.com/Ahmed-Ali/Cucumberish.git
   Quick:
     :branch: swift-3.0
     :git: https://github.com/Quick/Quick.git
 
 CHECKOUT OPTIONS:
+  Cucumberish:
+    :commit: 2594469acaa2fb16350289762ddea444dfee88be
+    :git: https://github.com/Ahmed-Ali/Cucumberish.git
   Quick:
     :commit: 36ebbc75e093c7553a5145ed5dd21484364cd78d
     :git: https://github.com/Quick/Quick.git
 
 SPEC CHECKSUMS:
+  Cucumberish: 768d23c615bb0c9f4dd9b22f86726600a464143f
+  KIF: '082eb65279e51c3092923802849eb796a04982ab'
   Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
   Quick: 31fb576b6cbb6b028cc5e0016e4366accbb346f5
 
-PODFILE CHECKSUM: 7ee0b67762ab3925e9a18422368e2b723ff46944
+PODFILE CHECKSUM: 37c5e30d07520b6dcbdad74e23b3ac45c405c7cd
 
 COCOAPODS: 1.1.0.beta.1
