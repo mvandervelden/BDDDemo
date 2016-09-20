@@ -13,6 +13,8 @@
 		0C4667801D91798D00F4D464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C46677F1D91798D00F4D464 /* Assets.xcassets */; };
 		0C4667831D91798D00F4D464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4667811D91798D00F4D464 /* LaunchScreen.storyboard */; };
 		0C46678E1D91798D00F4D464 /* BDDDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46678D1D91798D00F4D464 /* BDDDemoTests.swift */; };
+		9832F2AE69D0D1CCE07AF0A0 /* Pods_BDDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9671F2439A3F4018DF39EA6 /* Pods_BDDDemo.framework */; };
+		B241DBDBEB701EBFE8F36FD2 /* Pods_BDDDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		0C4667891D91798D00F4D464 /* BDDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C46678D1D91798D00F4D464 /* BDDDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDDemoTests.swift; sourceTree = "<group>"; };
 		0C46678F1D91798D00F4D464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC8483C1CC26A9D2E4141B6 /* Pods-BDDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemoTests/Pods-BDDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDDDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E66ADAB56CC1172B593F356 /* Pods-BDDDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemoTests/Pods-BDDDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC6E0F903C2A2DD0E9B168DB /* Pods-BDDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemo/Pods-BDDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D9671F2439A3F4018DF39EA6 /* Pods_BDDDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDDDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F4E1F7BB74BCC34F4D6F2 /* Pods-BDDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemo/Pods-BDDDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9832F2AE69D0D1CCE07AF0A0 /* Pods_BDDDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B241DBDBEB701EBFE8F36FD2 /* Pods_BDDDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				0C4667771D91798D00F4D464 /* BDDDemo */,
 				0C46678C1D91798D00F4D464 /* BDDDemoTests */,
 				0C4667761D91798D00F4D464 /* Products */,
+				43ADA90067BAC491A1EE19E1 /* Pods */,
+				25BCCE3672A69E4BC71723A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = BDDDemoTests;
 			sourceTree = "<group>";
 		};
+		25BCCE3672A69E4BC71723A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9671F2439A3F4018DF39EA6 /* Pods_BDDDemo.framework */,
+				458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43ADA90067BAC491A1EE19E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E0F903C2A2DD0E9B168DB /* Pods-BDDDemo.debug.xcconfig */,
+				F21F4E1F7BB74BCC34F4D6F2 /* Pods-BDDDemo.release.xcconfig */,
+				2CC8483C1CC26A9D2E4141B6 /* Pods-BDDDemoTests.debug.xcconfig */,
+				7E66ADAB56CC1172B593F356 /* Pods-BDDDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C4667921D91798D00F4D464 /* Build configuration list for PBXNativeTarget "BDDDemo" */;
 			buildPhases = (
+				5F7330F6F7A6D6AC653406F4 /* [CP] Check Pods Manifest.lock */,
 				0C4667711D91798D00F4D464 /* Sources */,
 				0C4667721D91798D00F4D464 /* Frameworks */,
 				0C4667731D91798D00F4D464 /* Resources */,
+				1621435525D1728382BAF8E2 /* [CP] Embed Pods Frameworks */,
+				1E84CFEA135541411A5154B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C4667951D91798D00F4D464 /* Build configuration list for PBXNativeTarget "BDDDemoTests" */;
 			buildPhases = (
+				752DBE9A4E5AB28E3470AF56 /* [CP] Check Pods Manifest.lock */,
 				0C4667851D91798D00F4D464 /* Sources */,
 				0C4667861D91798D00F4D464 /* Frameworks */,
 				0C4667871D91798D00F4D464 /* Resources */,
+				1C66C7F0E819959FA87BDA1B /* [CP] Embed Pods Frameworks */,
+				94E46D4C199C1300F4479A02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1621435525D1728382BAF8E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BDDDemo/Pods-BDDDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C66C7F0E819959FA87BDA1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BDDDemoTests/Pods-BDDDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E84CFEA135541411A5154B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BDDDemo/Pods-BDDDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F7330F6F7A6D6AC653406F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		752DBE9A4E5AB28E3470AF56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94E46D4C199C1300F4479A02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BDDDemoTests/Pods-BDDDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C4667711D91798D00F4D464 /* Sources */ = {
@@ -339,6 +470,7 @@
 		};
 		0C4667931D91798D00F4D464 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6E0F903C2A2DD0E9B168DB /* Pods-BDDDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CS7SZ6KGXK;
@@ -352,6 +484,7 @@
 		};
 		0C4667941D91798D00F4D464 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21F4E1F7BB74BCC34F4D6F2 /* Pods-BDDDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CS7SZ6KGXK;
@@ -365,6 +498,7 @@
 		};
 		0C4667961D91798D00F4D464 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC8483C1CC26A9D2E4141B6 /* Pods-BDDDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +514,7 @@
 		};
 		0C4667971D91798D00F4D464 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E66ADAB56CC1172B593F356 /* Pods-BDDDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +547,7 @@
 				0C4667941D91798D00F4D464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C4667951D91798D00F4D464 /* Build configuration list for PBXNativeTarget "BDDDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +556,7 @@
 				0C4667971D91798D00F4D464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
