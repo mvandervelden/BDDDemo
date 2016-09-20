@@ -1,0 +1,8 @@
+language: objective-c
+xcode_workspace: BDDDemo.xcworkspace
+xcode_scheme: BDDDemo
+osx_image: xcode8
+xcode_sdk: iphonesimulator
+
+script:
+- ./fastlane/travis.sh
