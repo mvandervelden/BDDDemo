@@ -2,6 +2,6 @@
 
 # if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
   cd Source
-  fastlane test
+  bundle exec fastlane test
   exit $?
 # fi
