@@ -24,7 +24,8 @@ platform :ios do
         clean: true,
         output_directory: @output_folder,
         output_types: "html, junit, json-compilation-database",
-        use_clang_report_name: true
+        use_clang_report_name: true,
+        device: "iPhone SE"
       )
   end
 
