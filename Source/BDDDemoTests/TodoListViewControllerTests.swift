@@ -12,7 +12,8 @@ class TodoListViewControllerTests: QuickSpec {
             var subject: TodoListViewController!
             
             beforeEach {
-                 subject = TodoListViewController().loaded()
+                 subject = UIViewController.loadViewController(withIdentifier: "TodoListViewController", fromStoryboard: "Main") as! TodoListViewController
+                subject.show()
             }
             
             it("can be created") {
@@ -21,6 +22,10 @@ class TodoListViewControllerTests: QuickSpec {
             
             it("displays the title Todo") {
                 expect(subject.title).to(equal("Todo"))
+            }
+            
+            it("has an add item button") {
+                expect(subject.addItemButton.accessibilityLabel).to(equal("Add Item"))
             }
         }
     }
