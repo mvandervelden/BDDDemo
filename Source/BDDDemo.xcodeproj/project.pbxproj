@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C45DDB81D94313E00514B0E /* AddTodoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C45DDB71D94313E00514B0E /* AddTodoViewControllerTests.swift */; };
+		0C45DDBA1D9431D500514B0E /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C45DDB91D9431D500514B0E /* AddTodoViewController.swift */; };
 		0C4667791D91798D00F4D464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4667781D91798D00F4D464 /* AppDelegate.swift */; };
 		0C46677B1D91798D00F4D464 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46677A1D91798D00F4D464 /* TodoTableViewController.swift */; };
 		0C46677E1D91798D00F4D464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C46677C1D91798D00F4D464 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C45DDB71D94313E00514B0E /* AddTodoViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoViewControllerTests.swift; sourceTree = "<group>"; };
+		0C45DDB91D9431D500514B0E /* AddTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
 		0C4667751D91798D00F4D464 /* BDDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4667781D91798D00F4D464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C46677A1D91798D00F4D464 /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 				0C46677F1D91798D00F4D464 /* Assets.xcassets */,
 				0C4667811D91798D00F4D464 /* LaunchScreen.storyboard */,
 				0C4667841D91798D00F4D464 /* Info.plist */,
+				0C45DDB91D9431D500514B0E /* AddTodoViewController.swift */,
 			);
 			path = BDDDemo;
 			sourceTree = "<group>";
@@ -140,8 +145,9 @@
 		0C46678C1D91798D00F4D464 /* BDDDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				0CF6AFDF1D94206200B71F74 /* Utils */,
 				0C46678D1D91798D00F4D464 /* TodoTableViewControllerTests.swift */,
+				0C45DDB71D94313E00514B0E /* AddTodoViewControllerTests.swift */,
+				0CF6AFDF1D94206200B71F74 /* Utils */,
 				0C46678F1D91798D00F4D464 /* Info.plist */,
 			);
 			path = BDDDemoTests;
@@ -488,6 +494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C46677B1D91798D00F4D464 /* TodoTableViewController.swift in Sources */,
+				0C45DDBA1D9431D500514B0E /* AddTodoViewController.swift in Sources */,
 				0C4667791D91798D00F4D464 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +505,7 @@
 			files = (
 				0CF6AFE11D94207A00B71F74 /* UIViewController+Load.swift in Sources */,
 				0C46678E1D91798D00F4D464 /* TodoTableViewControllerTests.swift in Sources */,
+				0C45DDB81D94313E00514B0E /* AddTodoViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

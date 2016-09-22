@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -65,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="3063" y="376"/>
         </scene>
-        <!--View Controller-->
+        <!--Add-->
         <scene sceneID="heK-wK-Alv">
             <objects>
-                <viewController id="mfL-0i-MwD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddTodoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mfL-0i-MwD" customClass="AddTodoViewController" customModule="BDDDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xp2-Dj-Czf"/>
                         <viewControllerLayoutGuide type="bottom" id="10B-Kc-iwt"/>
@@ -76,10 +77,38 @@
                     <view key="view" contentMode="scaleToFill" id="I9h-WM-OY5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Qqz-ac-uUm">
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zo8-Hb-WTx">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="gpm-A4-v3I"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qqz-ac-uUm" firstAttribute="top" secondItem="Xp2-Dj-Czf" secondAttribute="bottom" constant="8" id="BcC-mk-ZKy"/>
+                            <constraint firstItem="Qqz-ac-uUm" firstAttribute="leading" secondItem="I9h-WM-OY5" secondAttribute="leadingMargin" id="kgX-CO-nWb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qqz-ac-uUm" secondAttribute="trailing" id="qGg-ce-779"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="KWS-og-9lR"/>
+                    <navigationItem key="navigationItem" title="Add" id="KWS-og-9lR">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="OWP-tJ-EbZ">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="Save"/>
+                            </userDefinedRuntimeAttributes>
+                        </barButtonItem>
+                    </navigationItem>
                     <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="saveButton" destination="OWP-tJ-EbZ" id="zAV-WO-Jer"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MhL-b2-sIE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -23,16 +23,6 @@ class TodoTableViewControllerTests: QuickSpec {
             it("has an add item button") {
                 expect(subject.addItemButton.accessibilityLabel).to(equal("Add Item"))
             }
-            
-            describe("tapping the add item button") {
-                beforeEach {
-//                    subject.addItemButtonTouched(subject.addItemButton)
-                }
-                
-                it("displays the add item view") {
-                    
-                }
-            }
         }
     }
 }
