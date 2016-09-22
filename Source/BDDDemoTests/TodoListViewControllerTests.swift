@@ -16,12 +16,8 @@ class TodoListViewControllerTests: QuickSpec {
                 subject.show()
             }
             
-            it("can be created") {
-                expect(subject).toNot(beNil())
-            }
-            
             it("displays the title Todo") {
-                expect(subject.title).to(equal("Todo"))
+                expect(subject.navigationItem.title).to(equal("Todo"))
             }
             
             it("has an add item button") {
