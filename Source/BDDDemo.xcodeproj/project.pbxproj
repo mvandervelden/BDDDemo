@@ -13,7 +13,12 @@
 		0C4667801D91798D00F4D464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C46677F1D91798D00F4D464 /* Assets.xcassets */; };
 		0C4667831D91798D00F4D464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4667811D91798D00F4D464 /* LaunchScreen.storyboard */; };
 		0C46678E1D91798D00F4D464 /* BDDDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46678D1D91798D00F4D464 /* BDDDemoTests.swift */; };
-		0C46679F1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46679E1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift */; };
+		0C46679F1D917D4A00F4D464 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46679E1D917D4A00F4D464 /* Setup.swift */; };
+		0CF6AFD41D94115400B71F74 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 0CF6AFD31D94115400B71F74 /* Features */; };
+		0CF6AFD71D9411B500B71F74 /* Initializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6AFD61D9411B500B71F74 /* Initializer.m */; };
+		0CF6AFD91D94125700B71F74 /* StepDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6AFD81D94125700B71F74 /* StepDefinitions.swift */; };
+		0CF6AFDC1D9412D200B71F74 /* NSIndexPath+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6AFDA1D9412D200B71F74 /* NSIndexPath+Testing.swift */; };
+		0CF6AFDD1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6AFDB1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift */; };
 		13B045CA2B01C57103481036 /* Pods_BDDDemoIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD718AA36B758683A07C85E /* Pods_BDDDemoIntegrationTests.framework */; };
 		9832F2AE69D0D1CCE07AF0A0 /* Pods_BDDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9671F2439A3F4018DF39EA6 /* Pods_BDDDemo.framework */; };
 		B241DBDBEB701EBFE8F36FD2 /* Pods_BDDDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */; };
@@ -48,8 +53,14 @@
 		0C46678D1D91798D00F4D464 /* BDDDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDDemoTests.swift; sourceTree = "<group>"; };
 		0C46678F1D91798D00F4D464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C46679C1D917D4A00F4D464 /* BDDDemoIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDDDemoIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C46679E1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDDemoIntegrationTests.swift; sourceTree = "<group>"; };
+		0C46679E1D917D4A00F4D464 /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
 		0C4667A01D917D4A00F4D464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF6AFD31D94115400B71F74 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
+		0CF6AFD51D9411B500B71F74 /* BDDDemoIntegrationTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDDDemoIntegrationTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0CF6AFD61D9411B500B71F74 /* Initializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initializer.m; sourceTree = "<group>"; };
+		0CF6AFD81D94125700B71F74 /* StepDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepDefinitions.swift; sourceTree = "<group>"; };
+		0CF6AFDA1D9412D200B71F74 /* NSIndexPath+Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSIndexPath+Testing.swift"; sourceTree = "<group>"; };
+		0CF6AFDB1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KIFTestActorDelegate.swift"; sourceTree = "<group>"; };
 		2CC8483C1CC26A9D2E4141B6 /* Pods-BDDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemoTests/Pods-BDDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		39D257D8A17DE482B6EB2C35 /* Pods-BDDDemoIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemoIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemoIntegrationTests/Pods-BDDDemoIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDDDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,10 +147,24 @@
 		0C46679D1D917D4A00F4D464 /* BDDDemoIntegrationTests */ = {
 			isa = PBXGroup;
 			children = (
-				0C46679E1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift */,
+				0CF6AFD31D94115400B71F74 /* Features */,
+				0C46679E1D917D4A00F4D464 /* Setup.swift */,
 				0C4667A01D917D4A00F4D464 /* Info.plist */,
+				0CF6AFD61D9411B500B71F74 /* Initializer.m */,
+				0CF6AFD51D9411B500B71F74 /* BDDDemoIntegrationTests-Bridging-Header.h */,
+				0CF6AFD81D94125700B71F74 /* StepDefinitions.swift */,
+				0CF6AFDE1D9412DA00B71F74 /* Utils */,
 			);
 			path = BDDDemoIntegrationTests;
+			sourceTree = "<group>";
+		};
+		0CF6AFDE1D9412DA00B71F74 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0CF6AFDA1D9412D200B71F74 /* NSIndexPath+Testing.swift */,
+				0CF6AFDB1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		25BCCE3672A69E4BC71723A8 /* Frameworks */ = {
@@ -254,6 +279,7 @@
 					0C46679B1D917D4A00F4D464 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = CS7SZ6KGXK;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0C4667741D91798D00F4D464;
 					};
@@ -301,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF6AFD41D94115400B71F74 /* Features in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +493,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C46679F1D917D4A00F4D464 /* BDDDemoIntegrationTests.swift in Sources */,
+				0CF6AFD71D9411B500B71F74 /* Initializer.m in Sources */,
+				0C46679F1D917D4A00F4D464 /* Setup.swift in Sources */,
+				0CF6AFD91D94125700B71F74 /* StepDefinitions.swift in Sources */,
+				0CF6AFDD1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift in Sources */,
+				0CF6AFDC1D9412D200B71F74 /* NSIndexPath+Testing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,11 +694,14 @@
 			baseConfigurationReference = 39D257D8A17DE482B6EB2C35 /* Pods-BDDDemoIntegrationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CS7SZ6KGXK;
 				INFOPLIST_FILE = BDDDemoIntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.philips.platform.develop.BDDDemoIntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BDDDemoIntegrationTests/BDDDemoIntegrationTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDDDemo.app/BDDDemo";
 			};
@@ -678,11 +712,13 @@
 			baseConfigurationReference = FD25436EC2240E7FA636A579 /* Pods-BDDDemoIntegrationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CS7SZ6KGXK;
 				INFOPLIST_FILE = BDDDemoIntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.philips.platform.develop.BDDDemoIntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BDDDemoIntegrationTests/BDDDemoIntegrationTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDDDemo.app/BDDDemo";
 			};
