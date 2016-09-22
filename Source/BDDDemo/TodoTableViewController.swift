@@ -2,7 +2,7 @@
 
 import UIKit
 
-class TodoListViewController: UIViewController {
+class TodoTableViewController: UITableViewController {
 
     @IBOutlet weak var addItemButton: UIBarButtonItem!
 

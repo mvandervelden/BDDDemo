@@ -4,15 +4,15 @@ import Quick
 import Nimble
 @testable import BDDDemo
 
-class TodoListViewControllerTests: QuickSpec {
+class TodoTableViewControllerTests: QuickSpec {
     override func spec() {
         
         describe("a TodoListViewController") {
             
-            var subject: TodoListViewController!
+            var subject: TodoTableViewController!
             
             beforeEach {
-                 subject = UIViewController.loadViewController(withIdentifier: "TodoListViewController", fromStoryboard: "Main") as! TodoListViewController
+                 subject = UIViewController.loadViewController(withIdentifier: "TodoTableViewController", fromStoryboard: "Main") as! TodoTableViewController
                 subject.show()
             }
             
@@ -22,6 +22,16 @@ class TodoListViewControllerTests: QuickSpec {
             
             it("has an add item button") {
                 expect(subject.addItemButton.accessibilityLabel).to(equal("Add Item"))
+            }
+            
+            describe("tapping the add item button") {
+                beforeEach {
+//                    subject.addItemButtonTouched(subject.addItemButton)
+                }
+                
+                it("displays the add item view") {
+                    
+                }
             }
         }
     }
