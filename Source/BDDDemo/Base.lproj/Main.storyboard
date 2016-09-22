@@ -52,6 +52,9 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="Add Item"/>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <segue destination="NTT-vm-lG4" kind="presentation" modalPresentationStyle="formSheet" id="cfi-J9-FKI"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -61,6 +64,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q4p-4t-pKS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3063" y="376"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="heK-wK-Alv">
+            <objects>
+                <viewController id="mfL-0i-MwD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xp2-Dj-Czf"/>
+                        <viewControllerLayoutGuide type="bottom" id="10B-Kc-iwt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I9h-WM-OY5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KWS-og-9lR"/>
+                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhL-b2-sIE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5093.6000000000004" y="375.56221889055473"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1F2-qI-YPJ">
@@ -90,6 +113,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImA-KA-UQP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1159" y="703"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mOS-cz-kun">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NTT-vm-lG4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PCE-ax-TgZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mfL-0i-MwD" kind="relationship" relationship="rootViewController" id="yCA-Ep-cj8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5rG-ya-cfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4152.8000000000002" y="375.56221889055473"/>
         </scene>
     </scenes>
 </document>
