@@ -23,7 +23,7 @@ class StepDefinitions: NSObject {
         }
         
         Then("the \"save\" button is disabled") { (args, userInfo) -> Void in
-            expect(true).to(beFalse(), description: "Implementation Pending")   
+            expect(true).to(beFalse(), description: "Implementation Pending")
         }
         
     }
