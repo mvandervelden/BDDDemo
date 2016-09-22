@@ -19,6 +19,7 @@
 		0CF6AFD91D94125700B71F74 /* StepDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6AFD81D94125700B71F74 /* StepDefinitions.swift */; };
 		0CF6AFDC1D9412D200B71F74 /* NSIndexPath+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6AFDA1D9412D200B71F74 /* NSIndexPath+Testing.swift */; };
 		0CF6AFDD1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6AFDB1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift */; };
+		0CF6AFE11D94207A00B71F74 /* UIViewController+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6AFE01D94207A00B71F74 /* UIViewController+Load.swift */; };
 		13B045CA2B01C57103481036 /* Pods_BDDDemoIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD718AA36B758683A07C85E /* Pods_BDDDemoIntegrationTests.framework */; };
 		9832F2AE69D0D1CCE07AF0A0 /* Pods_BDDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9671F2439A3F4018DF39EA6 /* Pods_BDDDemo.framework */; };
 		B241DBDBEB701EBFE8F36FD2 /* Pods_BDDDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */; };
@@ -61,6 +62,7 @@
 		0CF6AFD81D94125700B71F74 /* StepDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepDefinitions.swift; sourceTree = "<group>"; };
 		0CF6AFDA1D9412D200B71F74 /* NSIndexPath+Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSIndexPath+Testing.swift"; sourceTree = "<group>"; };
 		0CF6AFDB1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KIFTestActorDelegate.swift"; sourceTree = "<group>"; };
+		0CF6AFE01D94207A00B71F74 /* UIViewController+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Load.swift"; sourceTree = "<group>"; };
 		2CC8483C1CC26A9D2E4141B6 /* Pods-BDDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemoTests/Pods-BDDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		39D257D8A17DE482B6EB2C35 /* Pods-BDDDemoIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDDemoIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDDemoIntegrationTests/Pods-BDDDemoIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		458A27EE747A56270EAFACA6 /* Pods_BDDDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDDDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 		0C46678C1D91798D00F4D464 /* BDDDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				0CF6AFDF1D94206200B71F74 /* Utils */,
 				0C46678D1D91798D00F4D464 /* TodoListViewControllerTests.swift */,
 				0C46678F1D91798D00F4D464 /* Info.plist */,
 			);
@@ -163,6 +166,14 @@
 			children = (
 				0CF6AFDA1D9412D200B71F74 /* NSIndexPath+Testing.swift */,
 				0CF6AFDB1D9412D200B71F74 /* NSObject+KIFTestActorDelegate.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		0CF6AFDF1D94206200B71F74 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0CF6AFE01D94207A00B71F74 /* UIViewController+Load.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -485,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF6AFE11D94207A00B71F74 /* UIViewController+Load.swift in Sources */,
 				0C46678E1D91798D00F4D464 /* TodoListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

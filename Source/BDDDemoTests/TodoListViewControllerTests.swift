@@ -12,11 +12,15 @@ class TodoListViewControllerTests: QuickSpec {
             var subject: TodoListViewController!
             
             beforeEach {
-                 subject = TodoListViewController()
+                 subject = TodoListViewController().loaded()
             }
             
             it("can be created") {
                 expect(subject).toNot(beNil())
+            }
+            
+            it("displays the title Todo") {
+                expect(subject.title).to(equal("Todo"))
             }
         }
     }
